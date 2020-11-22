@@ -182,7 +182,7 @@ public class MainActivity extends AppCompatActivity
 
     private void stopgametoast()
     {
-        textView.setText(""+0);
+//        textView.setText(""+0);
         stopgame=true;
         startgame=false;
 
