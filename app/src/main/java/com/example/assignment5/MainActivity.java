@@ -128,6 +128,7 @@ public class MainActivity extends AppCompatActivity
                     }).start();
                     if(bad_startegy<0)
                     {
+                        textView.setText(""+0);
                         Toast.makeText(MainActivity.this, "Your Balance Goes to Zero", Toast.LENGTH_SHORT).show();
                     }
 
@@ -182,7 +183,7 @@ public class MainActivity extends AppCompatActivity
 
     private void stopgametoast()
     {
-//        textView.setText(""+0);
+        //textView.setText(""+0);
         stopgame=true;
         startgame=false;
 
