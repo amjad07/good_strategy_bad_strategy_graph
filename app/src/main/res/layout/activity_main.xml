@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+  <TextView
+      android:padding="20dp"
+      android:textSize="50sp"
+      android:text="100$"
+      android:textStyle="bold"
+      android:textAlignment="center"
+      android:layout_marginTop="60dp"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:id="@+id/text_view"/>
+
+  <Button
+    android:id="@+id/startgame_btn"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="@string/startgame"
+      android:padding="20dp"
+     android:layout_above="@id/stopgame_btn"
+    android:textStyle="bold"/>
+    <Button
+        android:padding="20dp"
+
+        android:id="@+id/stopgame_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/stopgame"
+        android:layout_centerVertical="true"
+        android:textStyle="bold"/>
+    <Button
+        android:id="@+id/showgrowth_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/showgrowth"
+        android:layout_below="@id/stopgame_btn"
+        android:padding="20dp"
+        android:textStyle="bold"/>
+
+
+</RelativeLayout>
